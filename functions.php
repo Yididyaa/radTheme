@@ -9,6 +9,13 @@ function load_stylesheets(){
 }
 
 add_action('wp_enqueue_scripots', 'load_stylesheets');
+function include_jquery(){
+	wp_deregister_script('jquery');
+
+	wp_enqueue_scripts('jquery', get_template_directory_uri()."/js/jquery-3.4.1.min.js", "",1,true);
+	add_action("wp_enqueue_scripts", "jquery");
+}
+
 
 
 function loadjs(){
