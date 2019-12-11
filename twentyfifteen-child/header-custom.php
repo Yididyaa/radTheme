@@ -1,8 +1,6 @@
 <?php
 /**
- * The template for displaying the header
- *
- * Displays all of the head element and everything up until the "site-content" div.
+ * 
  *
  * @package WordPress
  * @subpackage Twenty_Fifteen
@@ -40,7 +38,7 @@
       <?php endif;
    ?>
    <button class="secondary-toggle"><?php _e( 'Menu and widgets', 'twentyfifteen' ); ?></button>
-   </div><!-- .site-branding -->
-   </header><!-- .site-header -->
+   </div>
+   </header>
 
    <div id="content" class="site-content full-width">

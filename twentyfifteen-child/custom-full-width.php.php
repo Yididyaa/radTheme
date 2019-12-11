@@ -1,9 +1,5 @@
 <?php
-/*
- * Template Name: Custom Full Width
- * description: >-
-  Page template without sidebar
- */
+
 
 get_header('custom'); ?>
 
@@ -26,7 +22,7 @@ get_header('custom'); ?>
    endwhile;
    ?>
 
-   </main><!-- .site-main -->
-   </div><!-- .content-area -->
+   </main>
+   </div>
 
 <?php get_footer('custom'); ?>
