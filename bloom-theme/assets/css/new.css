@@ -1,0 +1,15 @@
+#colophon{
+
+    background-color: #000000;
+    /* padding-bottom: -1000%; */
+    text-align: center;
+}
+div.img{
+    content: url("../images/hb2.png");
+    width:50% ;
+    height:50%;
+
+
+}
+
+/* .widget ul li a {} */
