@@ -21,6 +21,10 @@
 				printf( esc_html__( 'Proudly powered by %s', 'bloom-theme' ), 'WordPress' );
 				?>
 			</a>
+			<a tag="" wrapped="" around="" the="" logo="" and="" add="" option="" to="" change="" link="" from="" customizer.<="" a="" data-wpel-link="internal">    
+<div id="footer-widget-area"> <?php dynamic_sidebar( 'NAME-OF-WIDGET_AREA' ); ?></div>
+ 
+</a>
 			<span class="sep"> | </span>
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
