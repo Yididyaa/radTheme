@@ -14,6 +14,36 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
+	<div class="container-fluid text-center text-md-left"><br>
+	<div id="footer-sidebar" class="row secondary">
+        <div class="col-md-3" id="footer-sidebar1">
+        <?php
+        if(is_active_sidebar('footer-sidebar-1')){
+        dynamic_sidebar('footer-sidebar-1');
+        }
+        ?>
+        </div>
+        <div class="col-md-3" id="footer-sidebar2">
+        <?php
+        if(is_active_sidebar('footer-sidebar-2')){
+        dynamic_sidebar('footer-sidebar-2');
+        }
+        ?>
+        </div>
+        <div class="col-md-3" id="footer-sidebar3">
+        <?php
+        if(is_active_sidebar('footer-sidebar-3')){
+        dynamic_sidebar('footer-sidebar-3');
+        }
+        ?>
+        </div>
+        <div class="col-md-3" id="footer-sidebar4">
+        <?php
+        if(is_active_sidebar('footer-sidebar-4')){
+        dynamic_sidebar('footer-sidebar-4');
+        }
+        ?>
+        </div></div>
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'bloom-theme' ) ); ?>">
 				<?php

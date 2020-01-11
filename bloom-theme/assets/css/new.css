@@ -8,5 +8,41 @@
 
     background-color: rgb(83, 22, 70);
 }
+.card {
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+#main a:active,
+main a:link,
+main a:visited{
+    font-family: 'Times New Roman', Times;
+   
+    color: #55053ab0;
+
+}
+
+.widget-title{
+    text-align: right;
+    color: #55053ab0;
+    font-family: 'Times New Roman', Times;
+}
+.widget ul li {
+    list-style-type: none;
+    text-align: right;
+
+}
+.widget ul li a :hover{
+   
+
+}
+.widget ul li a:active,
+.widget ul li a:link,
+.widget ul li a:visited{
+     
+    color: #cea008b0;
+
+
+}
 
 

@@ -16,6 +16,7 @@ get_header();
 ?>
 
 <div class="container">
+	<div class="card mb-7">
 <div class ="row">
 <div class="col-sm-4">
     <?php get_sidebar(); ?>
@@ -66,5 +67,6 @@ get_header();
 
     
   </div>
+</div>
 </div>
 <?php get_footer(); ?>

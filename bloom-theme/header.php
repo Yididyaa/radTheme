@@ -46,7 +46,8 @@
             'depth'           => 0,
             'fallback_cb'     => 'functions::fallback',
             'walker'          => new bloom_navbar()
-            ]);
+			]);
+			get_search_form(  );
         ?>
 	</nav>
 
