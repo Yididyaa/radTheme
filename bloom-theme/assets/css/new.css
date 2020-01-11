@@ -1,6 +1,6 @@
 #colophon{
 
-    background-color: #000000;
+    background-color: rgb(83, 22, 70);
     /* padding-bottom: -1000%; */
     text-align: center;
 }
@@ -21,11 +21,19 @@ main a:visited{
     color: #55053ab0;
 
 }
-
+#wp-calendar{
+    color: aliceblue;
+}
 .widget-title{
     text-align: right;
     color: #55053ab0;
     font-family: 'Times New Roman', Times;
+}
+.footer-widget-title{    
+    text-align: right;
+    color: #FF6F61FF;
+    font-family: 'Times New Roman', Times;
+
 }
 .widget ul li {
     list-style-type: none;
