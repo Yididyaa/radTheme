@@ -4,12 +4,9 @@
     /* padding-bottom: -1000%; */
     text-align: center;
 }
-div.img{
-    content: url("../images/hb2.png");
-    width:50% ;
-    height:50%;
+#site-navigation{
 
-
+    background-color: rgb(83, 22, 70);
 }
 
 /* .widget ul li a {} */

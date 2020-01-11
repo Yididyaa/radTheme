@@ -24,7 +24,7 @@
 
 <body <?php body_class(); ?>>
 
-<nav id="site-navigation"  class="navbar navbar-expand-md navbar-dark top bg-dark">
+<nav id="site-navigation"  class="navbar navbar-expand-md navbar-dark top white">
     <a class="navbar-brand" href="#">
         <?php bloginfo('name'); ?>
     </a>
@@ -52,23 +52,11 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'bloom-theme' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div class="site-branding">
+		<div class="site-branding"><br>
 			<?php
 			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$bloom_theme_description = get_bloginfo( 'description', 'display' );
-			if ( $bloom_theme_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $bloom_theme_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
+			
+			?>
 		</div><!-- .site-branding -->
 
 	
