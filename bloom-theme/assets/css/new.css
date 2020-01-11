@@ -24,6 +24,9 @@ main a:visited{
 #wp-calendar{
     color: aliceblue;
 }
+#wp-calendar tbody tr #today:hover{
+    color: aliceblue;
+}
 .widget-title{
     text-align: right;
     color: #55053ab0;
@@ -52,5 +55,11 @@ main a:visited{
 
 
 }
-
-
+.footer{
+    color: #cea008b0;
+}
+#footerlink:active,
+#footerlink:link,
+#footerlink:visited{
+    color: aqua;
+}
