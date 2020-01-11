@@ -25,6 +25,10 @@
 <body <?php body_class(); ?>>
 
 <nav id="site-navigation"  class="navbar navbar-expand-md navbar-dark top white">
+<?php
+			the_custom_logo();
+			
+			?>
     <a class="navbar-brand" href="#">
         <?php bloginfo('name'); ?>
     </a>
@@ -53,10 +57,7 @@
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding"><br>
-			<?php
-			the_custom_logo();
 			
-			?>
 		</div><!-- .site-branding -->
 
 	
