@@ -295,3 +295,7 @@ class bloom_navbar extends Walker_Nav_Menu
         }
     }
 }
+function bloom_theme_add_editor_styles(){
+	add_editor_style( '/assets/css/custom-editor-style.css' );
+
+}add_action("admin_init", "bloom_theme_add_editor_styles");
