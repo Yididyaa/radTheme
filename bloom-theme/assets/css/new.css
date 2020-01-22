@@ -8,11 +8,11 @@
 
     background-color: rgb(83, 22, 70);
 }
-.card {
+/*.card {
     padding: 15px;
     border-radius: 10px;
     
-}
+}*/
 #main a:active,
 main a:link,
 main a:visited{
@@ -43,9 +43,18 @@ main a:visited{
     text-align: right;
 
 }
-.widget ul li a :hover{
-   
-
+.widget ul li a:link:hover{
+    color: orange;
+   text-decoration: none;
+}
+.widget ul li a:active:hover{
+    color: orange;
+   text-decoration: none;
+  transition-duration: .5;
+}
+.widget ul li a:visited:hover{
+    color: orange;
+   text-decoration: none;
 }
 .widget ul li a:active,
 .widget ul li a:link,
@@ -63,3 +72,44 @@ main a:visited{
 #footerlink:visited{
     color: aqua;
 }
+
+
+
+
+body {
+    color: #fff;
+    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  }
+  .box {
+    background: #55053ab0;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    transition-property: background, border-radius;
+    transition-duration: .2s, 1s;
+    transition-timing-function: linear, ease-in;
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  .box:hover {
+    background: #ff7b29;
+    color: #55053ab0;
+    border-radius: 50%;
+    text-decoration: none;
+  }
+  .box:link,.box:active,.box:visited{
+      color: #FF6F61FF;
+  }
+  .box:link:hover,.box:active:hover,.box:visited:hover{
+    color: #55053ab0;
+
+
+
+}
+
+  
+
+@media(){}
+

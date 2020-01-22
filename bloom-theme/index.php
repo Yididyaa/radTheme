@@ -16,7 +16,7 @@ get_header();
 ?>
 
 <div class="container">
-	<div class="card mb-7">
+	
 <div class ="row">
 <div class="col-sm-4">
     <?php get_sidebar(); ?>
@@ -64,6 +64,7 @@ get_header();
 	</div><!-- #primary -->
 
 	</div>
+	<a href="#" class="box ml-auto">Top</a>
 
     
   </div>
