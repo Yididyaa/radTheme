@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package bloom-theme
+ * @package bloomTheme
  */
 
 ?>
@@ -47,10 +47,10 @@
 		<div class ="footer text-center py-3">
 
 		<div class="site-info">
-			<a id = "footerlink" href="<?php echo esc_url( __( 'https://wordpress.org/', 'bloom-theme' ) ); ?>">
+			<a id = "footerlink" href="<?php echo esc_url( __( 'https://wordpress.org/', 'bloomTheme' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'bloom-theme' ), 'WordPress' );
+				printf( esc_html__( 'Proudly powered by %s', 'bloomTheme' ), 'WordPress' );
 				?>
 			</a>
 			<a tag="" wrapped="" around="" the="" logo="" and="" add="" option="" to="" change="" link="" from="" customizer.<="" a="" data-wpel-link="internal">    
@@ -60,7 +60,7 @@
 			<span class="sep"> | </span>
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'bloom-theme' ), 'bloom-theme', '<a href="http://underscores.me/">Underscores.me</a>' );
+				printf( esc_html__( 'Theme: %1$s by %2$s.', 'bloomTheme' ), 'bloomTheme', '<a href="http://underscores.me/">Underscores.me</a>' );
 				?>
 		</div><!-- .site-info -->
 		</div>

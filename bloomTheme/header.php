@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package bloom-theme
+ * @package bloomTheme
  */
 
 ?>
@@ -33,7 +33,7 @@
         <?php bloginfo('name'); ?>
     </a>
    
-    <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'bloom-theme' ); ?></button>
+    <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'bloomTheme' ); ?></button>
 	<?php
             wp_nav_menu([
             'menu'            => 'primary-menu',
@@ -54,7 +54,7 @@
 	
 	<!-- </div> -->
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'bloom-theme' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'bloomTheme' ); ?></a>
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding"><br>

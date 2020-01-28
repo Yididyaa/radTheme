@@ -28,6 +28,7 @@ main a:visited{
     color: aliceblue;
 }
 .widget-title{
+    margin-top: 65px;
     text-align: right;
     color: #55053ab0;
     font-family: 'Times New Roman', Times;
@@ -46,15 +47,25 @@ main a:visited{
 .widget ul li a:link:hover{
     color: orange;
    text-decoration: none;
+   color: black;
+    background-color: orange;
+    padding: 3px;
 }
 .widget ul li a:active:hover{
     color: orange;
    text-decoration: none;
   transition-duration: .5;
+  padding: 3px;
+  
+
 }
 .widget ul li a:visited:hover{
-    color: orange;
+    color: black;
+    background-color: orange;
    text-decoration: none;
+   cursor: pointer;
+   padding: 3px;
+   
 }
 .widget ul li a:active,
 .widget ul li a:link,
@@ -71,6 +82,9 @@ main a:visited{
 #footerlink:link,
 #footerlink:visited{
     color: aqua;
+}
+#archives-dropdown-6{
+    float: right;
 }
 
 

@@ -1,10 +1,10 @@
 <?php
 /**
- * bloom-theme functions and definitions
+ * bloomTheme functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package bloom-theme
+ * @package bloomTheme
  */
 
 if ( ! function_exists( 'bloom_theme_setup' ) ) :
@@ -19,10 +19,10 @@ if ( ! function_exists( 'bloom_theme_setup' ) ) :
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
-		 * If you're building a theme based on bloom-theme, use a find and replace
-		 * to change 'bloom-theme' to the name of your theme in all the template files.
+		 * If you're building a theme based on bloomTheme, use a find and replace
+		 * to change 'bloomTheme' to the name of your theme in all the template files.
 		 */
-		load_theme_textdomain( 'bloom-theme', get_template_directory() . '/languages' );
+		load_theme_textdomain( 'bloomTheme', get_template_directory() . '/languages' );
 
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
@@ -44,7 +44,7 @@ if ( ! function_exists( 'bloom_theme_setup' ) ) :
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'bloom-theme' ),
+			'menu-1' => esc_html__( 'Primary', 'bloomTheme' ),
 		) );
 
 		/*
@@ -105,9 +105,9 @@ add_action( 'after_setup_theme', 'bloom_theme_content_width', 0 );
  */
 function bloom_theme_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'bloom-theme' ),
+		'name'          => esc_html__( 'Sidebar', 'bloomTheme' ),
 		'id'            => 'sidebar-1',
-		'description'   => esc_html__( 'Add widgets here.', 'bloom-theme' ),
+		'description'   => esc_html__( 'Add widgets here.', 'bloomTheme' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
@@ -162,11 +162,11 @@ function bloom_theme_scripts() {
     
   	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.bundle.min.js', array( 'jquery' ) );
 
-	wp_enqueue_style( 'bloom-theme-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'bloomTheme-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'bloom-theme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	wp_enqueue_script( 'bloomTheme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
-	wp_enqueue_script( 'bloom-theme-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	wp_enqueue_script( 'bloomTheme-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	wp_enqueue_style( 'wpb-google-fonts', '"https://fonts.googleapis.com/css?family=Oxygen&display=swap"', false );
 
