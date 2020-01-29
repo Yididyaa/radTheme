@@ -156,6 +156,10 @@ add_action( 'widgets_init', 'bloom_theme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function bloom_theme_scripts() {
+	
+
+
+
 	wp_enqueue_style( "new", get_template_directory_uri().'/assets/css/new.css', array(), '1.0', 'all' );
 
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
